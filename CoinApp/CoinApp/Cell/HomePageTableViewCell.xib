@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="HomePageTableViewCell" rowHeight="76" id="KGk-i7-Jjw" customClass="HomePageTableViewCell" customModule="CoinApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="76"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="76"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ETH" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I3b-2m-9Tc">
+                        <rect key="frame" x="96" y="19" width="127" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="127" id="JLd-gB-F2p"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Etherium" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sqj-uu-GHy">
+                        <rect key="frame" x="96" y="41" width="127" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2.880" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EZo-3B-QZt">
+                        <rect key="frame" x="226" y="19" width="183" height="19"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pencil" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="KeJ-oj-bf4">
+                        <rect key="frame" x="38" y="20.5" width="40" height="35.5"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="Snr-SW-SDR"/>
+                            <constraint firstAttribute="width" constant="40" id="ptm-8S-3Rv"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-%3.5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="76h-mn-6ac">
+                        <rect key="frame" x="247" y="41" width="140" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="I3b-2m-9Tc" firstAttribute="baseline" secondItem="EZo-3B-QZt" secondAttribute="baseline" id="3LQ-sJ-bbO"/>
+                    <constraint firstItem="I3b-2m-9Tc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="19" id="3Ub-Rv-EtA"/>
+                    <constraint firstItem="I3b-2m-9Tc" firstAttribute="trailing" secondItem="sqj-uu-GHy" secondAttribute="trailing" id="3jv-1Y-QLq"/>
+                    <constraint firstItem="I3b-2m-9Tc" firstAttribute="leading" secondItem="sqj-uu-GHy" secondAttribute="leading" id="8rJ-1T-5wt"/>
+                    <constraint firstItem="76h-mn-6ac" firstAttribute="trailing" secondItem="EZo-3B-QZt" secondAttribute="trailing" constant="-22" id="Ldf-vC-AjV"/>
+                    <constraint firstItem="I3b-2m-9Tc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="96" id="NYn-cp-7Ha"/>
+                    <constraint firstAttribute="trailing" secondItem="EZo-3B-QZt" secondAttribute="trailing" constant="5" id="Nca-fx-rjh"/>
+                    <constraint firstItem="KeJ-oj-bf4" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="18" id="TKL-nP-7Mj"/>
+                    <constraint firstItem="I3b-2m-9Tc" firstAttribute="leading" secondItem="KeJ-oj-bf4" secondAttribute="trailing" constant="18" id="U9B-jg-fBv"/>
+                    <constraint firstAttribute="bottom" secondItem="sqj-uu-GHy" secondAttribute="bottom" constant="17" id="X87-37-fWm"/>
+                    <constraint firstAttribute="bottom" secondItem="76h-mn-6ac" secondAttribute="bottom" constant="17" id="YEe-91-dzb"/>
+                    <constraint firstItem="76h-mn-6ac" firstAttribute="leading" secondItem="EZo-3B-QZt" secondAttribute="leading" constant="21" id="ct2-sn-TUF"/>
+                    <constraint firstAttribute="bottom" secondItem="KeJ-oj-bf4" secondAttribute="bottom" constant="18" id="d7J-Qx-2Ty"/>
+                    <constraint firstItem="EZo-3B-QZt" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="19" id="eBZ-YB-Ovx"/>
+                    <constraint firstItem="sqj-uu-GHy" firstAttribute="top" secondItem="I3b-2m-9Tc" secondAttribute="bottom" constant="4" id="fOX-IG-5b9"/>
+                    <constraint firstItem="KeJ-oj-bf4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="38" id="nbK-MG-Rqd"/>
+                    <constraint firstItem="EZo-3B-QZt" firstAttribute="leading" secondItem="I3b-2m-9Tc" secondAttribute="trailing" constant="3" id="tBR-0l-nez"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="coinImage" destination="KeJ-oj-bf4" id="PWh-z6-tmO"/>
+                <outlet property="coinName" destination="sqj-uu-GHy" id="bse-6j-L6K"/>
+                <outlet property="coinPrice" destination="EZo-3B-QZt" id="wDO-UG-5DO"/>
+                <outlet property="coinPriceChange" destination="76h-mn-6ac" id="5Yg-Ff-co9"/>
+                <outlet property="coinSymbol" destination="I3b-2m-9Tc" id="Zdy-IT-f30"/>
+            </connections>
+            <point key="canvasLocation" x="152.17391304347828" y="87.723214285714278"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="pencil" catalog="system" width="128" height="113"/>
+    </resources>
+</document>
